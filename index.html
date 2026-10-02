@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Grid Tailwind CSS</title>
+</head>
+<body class="min-h-screen bg-green-300 font-[Cambria, Cochin, Georgia, Times, 'Times New Roman', serif] text-base flex justify-center items-center p-4 sm:p-6 md:p-8 lg:p-10">
+    
+<section class="bg-white mx-auto w-full max-w-sm sm:max-w-lg lg:mwax-w-xl p-4 rounded-lg shadow-lg grid grid-cols-1 sm:grid-cols-2 sm:p-6 lg:grid-cols-3 lg:p-8 gap-4">
+
+<article class="bg-purple-400 text-white h-48 p-4 sm:p-6 lg:p-8 w-full rounded-lg shadow-lg text-center hover:bg-purple-600 cursor-pointer">Box One</article>
+<article class="bg-blue-400 text-white h-48 p-4 w-full rounded-lg shadow-lg text-center sm:p-6 lg:p-8 hover:bg-blue-600 cursor-pointer">Box Two</article>
+<article class="bg-red-400 text-white h-48 p-4 w-full rounded-lg shadow-lg text-center sm:p-6 lg:p-8 hover:bg-red-600 cursor-pointer">Box Three</article>
+<article class="bg-orange-400 text-white h-48 p-4 w-full rounded-lg shadow-lg text-center sm:p-6 lg:p-8 hover:bg-orange-500 cursor-pointer">Box Four</article>
+<article class="bg-cyan-400 text-white h-48 p-4 w-full rounded-lg shadow-lg text-center sm:p-6 lg:p-8 hover:bg-cyan-600 cursor-pointer">Box Five</article>
+<article class="bg-indigo-400 text-white h-48 p-4 w-full rounded-lg shadow-lg text-center sm:p-6 lg:p-8 hover:bg-indigo-600 cursor-pointer">Box Six</article>
+
+</section>
+</body>
+</html>
+
+
+
+
+     <!-- Task: Responsive Grid Boxes
+Using HTML and Tailwind CSS, create a responsive section containing six boxes.
+Requirements
+Your webpage should contain:
+1. A light-green page background.
+2. A white container centred on the page.
+3. Six boxes inside the container.
+4. Each box should display a label from Box One to Box Six.
+5. The boxes should have equal widths and heights.
+Styling Requirements
+Use Tailwind CSS utilities to add:
+- A minimum full-screen height using min-h-screen.
+- Flexbox to centre the container horizontally and vertically.
+- Responsive padding around the page.
+- A white background, rounded corners and shadow on the container.
+- CSS Grid for arranging the six boxes.
+- Spacing between the boxes using gap.
+- Padding, rounded corners and shadows on each box.
+- Responsive heights for the boxes.
+Responsive Grid Layout
+Your grid should display:
+----------------------------------------------
+Screen size	              | Number of column
+----------------------------------------------
+Mobile — below 640px	  | 1 column
+Small — 640px and above	  | 2 columns
+Large — 1024px and above3 | columns
+---------------------------------------------
+
+Expected Grid Structure
+- Mobile: 6 rows × 1 column
+- Small screens: 3 rows × 2 columns
+- Large screens: 2 rows × 3 columns
+Important Instructions
+- Include the Tailwind CSS browser CDN in your HTML.
+- Use semantic elements such as <section> and <article>.
+- Do not use external CSS or inline styles.
+- Apply mobile-first responsive classes.
+- Test your page at mobile, tablet and desktop widths.
+Bonus Challenge
+Give each box a different background colour and add a hover effect that changes its colour. -->
