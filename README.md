@@ -81,6 +81,5 @@ Practice for Students
 - Experiment with colours, shadows, and hover effects.
 
 
-Instructor
-Bukola Ruth Olafenwa
-Full Stack Web Development Instructor — Tech Studio Academy
+**Instructor** **Bukola Ruth Olafenwa**
+**Full Stack Web Development Instructor — Tech Studio Academy**
